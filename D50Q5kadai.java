@@ -7,15 +7,12 @@ public class D50Q5kadai {
         }
 
         int tmp;
-
         for (int i = 0; i < num.length - 1; i++) {
             for (int j = i + 1; j < num.length; j++) {
                 if (num[i] > num[j]) {
-
                     tmp = num[i];
                     num[i] = num[j];
                     num[j] = tmp;
-
 
                     printArray(num, "ソート途中:");
                 }
